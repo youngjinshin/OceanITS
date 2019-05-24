@@ -25,14 +25,13 @@
 						<div class="content">
 							<div class="inner">
 								<h1>동행</h1>
-								<p>노인을 위한 광고 보행기
-								</p>
+								<p>노인을 위한 광고 보행기<br /><div id="notice">이 곳에 실시간 정보가 표시됩니다.</div></p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#start">보행 시작</a></li>
-								<li><a href="#stop">보행 종료</a></li>
+								<li><a href="javascript:start_walk();">보행 시작</a></li>
+								<li><a href="javascript:stop_walk();">보행 종료</a></li>
 								<li><a href="#history">보행 기록</a></li>
 								<li><a href="#admin">관리</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -48,9 +47,8 @@
 								<section>
 									<h2>보행 기록</h2>
 									<hr />
-									<h3 class="major">2019년 5월 24일</h3>
 									<div class="table-wrapper">
-										<table>
+										<table id="history-table">
 											<thead>
 												<tr>
 													<th>보행 시작</th>
@@ -60,48 +58,11 @@
 											</thead>
 											<tbody>
 												<tr>
-													<td>10 시  27 분</td>
-													<td>10 시  59 분</td>
-													<td>32 분</td>
-												</tr>
-												<tr>
-													<td>22 시  52 분</td>
-													<td>22 시  59 분</td>
-													<td>7 분</td>
+													<td>2019. 5. 22. 오전 3:22:03</td>
+													<td>2019. 5. 22. 오전 7:35:09</td>
+													<td>4시간 13분 6초</td>
 												</tr>
 											</tbody>
-											<tfoot>
-												<tr>
-													<th colspan="2">총 보행 시간</td>
-													<td>39  분</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-									<hr />
-									<h3 class="major">2019년 5월 22일</h3>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>보행 시작</th>
-													<th>보행 종료</th>
-													<th>보행 시간</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>3 시  22 분</td>
-													<td>7 시  35 분</td>
-													<td>4 시간  13 분</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<th colspan="2">총 보행 시간</td>
-													<td>4 시간  13 분</td>
-												</tr>
-											</tfoot>
 										</table>
 									</div>
 								</section>

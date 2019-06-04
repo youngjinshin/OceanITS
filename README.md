@@ -37,5 +37,5 @@
 [발표 자료]: 발표자료/5.동행-노인과%20복지를%20위한%20무료%20대여%20보행보조기.pdf
 
 <!-- 이미지 -->
-[대회 정보]: images/notice.png
+[대회 정보]: images/notice.jpg
 [예제]: images/example.png
